@@ -9,7 +9,7 @@
  It is adapted from 
  [app-store-scraper](https://github.com/cowboy-bebug/app-store-scraper). I converted the classes to functions for ease of debugging and removed some redundant elements such as the date filter as Apple does not allow reviews to be sorted by date. Generally, the larger the `offset`, the older the reviews tend to be.
 
- This port is motivated by the rate limiting that is very quickly encountered when using the original package. To address this, I added a default delay and backoff strategy. With the current configuration, it has been tested to scrape ~15,000 reviews with no rate limiting.
+ This port is motivated by the rate limiting that is quickly encountered when using the original package. To address this, I added a default delay and backoff strategy. With the current configuration, it has been tested to scrape ~15,000 reviews with no rate limiting.
  
 Includes two simple functions `get_token` and `fetch_reviews`, which are used to retrieve an authentication token and fetch app reviews, respectively.
 
