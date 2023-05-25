@@ -48,6 +48,7 @@ Once you have obtained the authentication token, use the `fetch_reviews` functio
 
 ```python
 from apple_app_reviews_scraper import fetch_reviews
+import pandas as pd
 
 country = 'sg'
 app_name = 'your-app-name' # can be named anything, really
