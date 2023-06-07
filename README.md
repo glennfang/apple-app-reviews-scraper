@@ -98,7 +98,7 @@ If developer responded:
 
 ## Credits
 - [@cowboy-bebug](https://www.github.com/cowboy-bebug/app-store-scraper) (original Python implementation)
-- [@facundoolano](https://github.com/facundoolano/app-store-scraper) (original Node.JS implementation)
+- [@facundoolano](https://github.com/facundoolano/app-store-scraper) (original Node.js implementation)
 
 
 
